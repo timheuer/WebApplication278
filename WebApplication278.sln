@@ -5,6 +5,11 @@ VisualStudioVersion = 17.5.33031.425
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication278", "WebApplication278\WebApplication278.csproj", "{5DB0CE73-4551-4C89-A01E-99DBC553478C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{63323F7B-980E-4CD0-B340-C5971A37251E}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-07f7d.yaml = .github\workflows\build-07f7d.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
